@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// Create HTTP handle
 func handlerFunc(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprint(w, "<h1>Running http<h1>")
 }
